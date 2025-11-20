@@ -14,8 +14,8 @@ namespace DamajuCad
     {
 
         bool VerSenhaTxt = false;
-        private string UsuarioCorreto = "David";
-        private string SenhaCorreta = "123456";
+        private string UsuarioCorreto = "victor";
+        private string SenhaCorreta = "123";
 
         public Menu()
         {
