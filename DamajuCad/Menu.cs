@@ -52,14 +52,14 @@ namespace DamajuCad
                 labelMessage.ForeColor = Color.Green;
 
                 this.Hide(); // vai esconder a tela quando eu entrar no gerenciar 
-
+                
 
                 Form1 form = new Form1();
                 form.ShowDialog();
+                this.Close(); //  fecha depois que o Form1 for fechado
 
-                
-            
-        }
+
+            }
             else
             {
                 labelMessage.Text = "Usuario ou senha invalidos";
@@ -70,7 +70,7 @@ namespace DamajuCad
 
                
             }
-            this.Close(); //  fecha depois que o Form1 for fechado
+            
         }
 
         private void Menu_Load(object sender, EventArgs e)
