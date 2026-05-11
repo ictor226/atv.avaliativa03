@@ -43,14 +43,23 @@ namespace DamajuCad
             string usuario = textBoxNome.Text;
             string senha = textBoxSenha.Text;
 
+           
+
             if
                 (usuario == UsuarioCorreto && senha == SenhaCorreta)
             {
                 labelMessage.Text = "Login bem-sucedido";
                 labelMessage.ForeColor = Color.Green;
+
+                this.Hide(); // vai esconder a tela quando eu entrar no gerenciar 
+
+
                 Form1 form = new Form1();
                 form.ShowDialog();
-            }
+
+                
+            
+        }
             else
             {
                 labelMessage.Text = "Usuario ou senha invalidos";
@@ -58,10 +67,18 @@ namespace DamajuCad
                 textBoxNome.Text = "";
                 textBoxSenha.Text = "";
                 textBoxNome.Focus();
+
+               
             }
+            this.Close(); //  fecha depois que o Form1 for fechado
         }
 
         private void Menu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
