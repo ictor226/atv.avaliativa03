@@ -73,6 +73,36 @@ namespace DamajuCad.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bloqueado {
+            get {
+                object obj = ResourceManager.GetObject("bloqueado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dcae7547_d0e3_4ab6_9bc1_64fe8fb53e4f {
+            get {
+                object obj = ResourceManager.GetObject("dcae7547-d0e3-4ab6-9bc1-64fe8fb53e4f", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap e7a6554c_d815_4c5f_8f07_6c8467399f54 {
+            get {
+                object obj = ResourceManager.GetObject("e7a6554c-d815-4c5f-8f07-6c8467399f54", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_olho_fechado_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-olho-fechado-50", resourceCulture);

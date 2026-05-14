@@ -193,5 +193,14 @@
   <ItemGroup>
     <None Include="Resources\icons8-olho-fechado-50.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e7a6554c-d815-4c5f-8f07-6c8467399f54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dcae7547-d0e3-4ab6-9bc1-64fe8fb53e4f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bloqueado.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
