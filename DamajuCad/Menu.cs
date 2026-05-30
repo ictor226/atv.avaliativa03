@@ -20,7 +20,12 @@ namespace DamajuCad
         public Menu()
         {
             InitializeComponent();
+            textBoxSenha.PasswordChar = '*';  // senha oculta ao iniciar
+
+
+            
         }
+
 
         private void ocultar_senha_Click(object sender, EventArgs e)
         {
@@ -94,6 +99,11 @@ namespace DamajuCad
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxNome_TextChanged(object sender, EventArgs e)
         {
 
         }
